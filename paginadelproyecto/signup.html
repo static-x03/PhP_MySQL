@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+         <title>Registrate</title> 
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet"> 
+        <link href="css/stilos.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body> 
+        <style>
+             body{
+                background-image: url(imagenes/photo-1461749280684-dccba630e2f6.jpg);
+                background-repeat: no-repeat; 
+                background-size: cover;
+             }
+             
+        </style>
+          <header>
+            <a href="index.html" style="color: gold">Volver Al Inicio</a> 
+          </header> 
+        <h1 style="color: white">Registrate</h1> 
+        <span><a href="login.html" style="color: yellow">Ingresa Si Eres Administrador</a></span>
+        <form action="controlador/signup.php" method="post">
+            <br>
+            <input type="text" name="nombre" placeholder="INGRESA TU NOMBRE">
+            <input type="text" name="apellido" placeholder="INGRESA TU APELLIDO">
+            <input type="text" name="email" placeholder="INGRESA EMAIL">
+            <input type="password" name="password" placeholder="INGRESA CONTRASEÑA">
+            <input type="password" name="password" placeholder="CONFIRMAR CONTRASEÑA">
+            <br>
+            <input type="submit" value="Enviar"> 
+           
+      </form>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login ADMINISTRADOR</title> 
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet"> 
+        <link href="css/stilos.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body> 
+        <style>
+             body{
+                background-image: url(imagenes/photo-1461749280684-dccba630e2f6.jpg);
+                background-repeat: no-repeat; 
+                background-size: cover;}
+        
+        </style>
+                
+        <header>
+            <a href="index.html" style="color: gold">Volver Al Inicio</a>
+        </header>
+        <h1 style="color: white">Ingreso Adminstrador</h1> 
+        <span><a href="signup.html" style="color: white">Registrate En La Base De Datos</a></span>
+            
+        <form action="controlador/login.php"  method="post">
+            <br>
+            <input type="text" name="nombreUsuario" placeholder="Nombre Usuario"><br>
+            
+            <input type="password" name="password" placeholder="INGRESA CONTRASEÑA">
+            <br>
+            <input type="submit" value="Enviar">
+            
+                
+        </form>
+        
+       
+    </body>
+</html>
